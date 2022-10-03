@@ -46,7 +46,6 @@ def convert_matrices(arr):
     for _ in arr:
         j = 0
         for __ in _:
-            print(i, j)
             arr[i][j] = str("[" + arr[i][j] + "]")
             arr[i][j] = convert_array(arr[i][j])
             j = j + 1
